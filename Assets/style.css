@@ -1,0 +1,26 @@
+* {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 25px;
+    background-color: antiquewhite;
+}
+
+#Quiz-challenge {
+    font-size: 25px;
+    color: blueviolet;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#Start-btn {
+    background: plum;
+    color: blueviolet;
+}
+
+#Start-btn:hover {
+background: aqua;
+}
