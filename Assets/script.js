@@ -1,5 +1,12 @@
 //define all questions and answers 
-
+var questions = [
+    {
+        question: "Commonly used data types DO Not include:",
+        answers: [
+            {text: "Strings", }
+        ]
+    }
+]
 //define var for tracking 
 //      track time 
 //      track questions 
@@ -62,6 +69,7 @@
 //      timer hits zero
 //          trigger quiz completion
 
+
 //function
 //      save high scores
 //          get value of user input (name/initials)
@@ -81,3 +89,4 @@
 //      click answers
 //      click save scores
 //      keyups
+

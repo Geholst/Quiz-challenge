@@ -19,6 +19,7 @@
 #Start-btn {
     background: plum;
     color: blueviolet;
+    cursor: pointer;
 }
 
 #Start-btn:hover {
