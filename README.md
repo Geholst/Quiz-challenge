@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is to provide a practice quiz for students. I had alot of problems making this and felt like I was loosing my mind a little bit, but it was a fun challenge. 
+This project is to provide a practice quiz for students. I had alot of problems making this and felt like I was loosing my mind a little bit. I am definetly going to use a tutoring session for JavaScript.
 
 ## Table of Contents (Optional)
 
