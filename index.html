@@ -1,55 +1,39 @@
-<!-- Container for high scores -->
-
-<!--Container for countdown timer -->
-
-<!-- start button-->
-
-<!--Container for the quiz -->
-
-<!--    container for the questions -->
-<!--    container for the answers -->
-<!--      container for each answer -->
-
-
-<!-- End screen -->
-
-<!-- Conatiner for you win! -->
-<!-- input for name/initials -->
-<!-- save button-->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/reset.css">
     <link rel="stylesheet" href="./Assets/style.css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAIxKAwD/sl4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMiAAAAAAAAAxIAAAAAAAADMgAAAAAAAAAAAAAAAAAAAxIAAAAAAAADEQAAAAAAAAAxIAAAAAAAAAMSAAAAAAIgABEgAAAAESAAERAAAAAxIAAREAAAADEgABEQAAAAAxIREQAAAAADMREQAAAAAAADMQAAAAAAAAAAAAAAD8fwAA/H8AAPx/AAD//wAA/H8AAPx/AAD+PwAA/x8AAPOPAADjjwAA448AAOOPAADwHwAA8D8AAPx/AAD//wAA" rel="icon" type="image/x-icon" />
     <title>Coding Quiz</title>
 </head>
-
-
 <body>
-    <button class="score">High scores</button>
-    <section id="Timer">Timer __sceconds</section>
-
-    <header id="Quiz-challenge">
-        <h1 >Coding Quiz Challenge</h1>
-        <p>Try to finish the coding quiz within the time limit.</p>
-        <p>Incorrect answers will lose you ten seconds.</p>
-        <button id="Start-btn">Start Quiz</button>
+    <header>
+      <section class="score">
+        <button class="score">High Scores</button> </section>
+      <section class="timer">Timer</section>
     </header>
     <main>
-        <button class="box1">Answer</button>
-        <button class="box2">Answer</button>
-        <button class="box3">Answer</button>
-        <button class="box4">Answer</button>
-
-    </main>
+      <h1>Coding Quiz Challenge</h1>
+      <button class="box1">Answer to the question</button>
+      <button class="box2">Answer to the question</button>
+      <button class="box3">Answer to the question</button>
+      <button class="box4">Answer to the question</button>
+      
+      <br />
+      <div class="card">
+        <h1>High Scores</h1>
+        <form id="name-form" method="POST">
+          <label for="name-text">Add your name : </label>
+          <input type="text" placeholder="Name " name="name-text" id="name-text" />
+        </form>
+        <p> <span id="name-count"></span></p>
+        <ul id="name-list"></ul>
     
-
+    </div>
+    <button id="play-button">Start Quiz</button>
+    </main>
     <script src="./Assets/script.js"></script>
-</body>
-</html>
+  </body>
+  </html>
