@@ -1,36 +1,125 @@
 * {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 0;
+  background-color: antiquewhite;
+    box-sizing: border-box;
     padding: 25px;
-    background-color: antiquewhite;
-}
-
-#Quiz-challenge {
-    font-size: 25px;
-    color: blueviolet;
-    height: 50vh;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  h1 {
+    display: block;
+    margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
     justify-content: center;
-}
-
-#Start-btn {
-    background: plum;
-    color: blueviolet;
+    align-items: center;
+  }
+  
+  /* Style the selectable boxes */
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 35px;
+    background-color: plum;
+    margin: 10px;
     cursor: pointer;
-}
+    flex-basis: 100%;
+  }
 
-#Start-btn:hover {
-background: aqua;
-}
+  .box1:hover,
+  .box2:hover,
+  .box3:hover,
+  .box4:hover {
+    background: aqua;
+    }
+  
+  .selected {
+    border: 3px solid blue;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: antiquewhite;
+  }
+  
+  .score {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
 
-#Timer {
+  .score:hover {
+    background: aqua;
+  }
+  
+  .timer {
     color:blueviolet;
     display: flex;
     flex-wrap: wrap;
     align-self:center;
     margin: 10px;
     padding: 10px;
-}
+  }
+  
+  main {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #play-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 7px 10px;
+    font-size: 10px;
+    border-radius: 5px;
+    color: blueviolet;
+    background-color: plum;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+#play-button:hover {
+  background: aqua;
+  }
+  
+  .card {
+    display: none;
+    background-color: #ffffe0;
+    border: 1px solid #eceff1;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+      rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+    margin: 60px auto;
+    padding: 20px;
+    width: 80vw;
+  }
+  
+  label,
+  p {
+    font-size: 15px;
+  }
+  
+  input {
+    height: 50px;
+    width: 100%;
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 2em;
+    border: 1px solid #001b44;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
